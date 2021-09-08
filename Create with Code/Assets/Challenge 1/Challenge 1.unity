@@ -826,6 +826,25 @@ MonoBehaviour:
   speed: 15
   rotationSpeed: 100
   verticalInput: 0
+--- !u!1 &831252110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: af29f0ea7e5403641b3b244ede69c374,
+    type: 3}
+  m_PrefabInstance: {fileID: 1239094319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &831252114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831252110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538bdc3798d3da7478e331e190ccb799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 500
 --- !u!1 &899755176
 GameObject:
   m_ObjectHideFlags: 0
