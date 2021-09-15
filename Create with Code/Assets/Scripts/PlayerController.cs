@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
+    [SerializeField] GameObject centerOfMass;
 
     // Private Variables
     //[SerializeField] private float speed = 10f;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        playerRb.centerOfMass = centerOfMass.transform.localPosition;
     }
 
     // Update is called once per frame
