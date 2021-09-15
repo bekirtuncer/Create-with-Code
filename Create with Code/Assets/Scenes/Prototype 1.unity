@@ -738,9 +738,15 @@ MonoBehaviour:
   centerOfMass: {fileID: 193193285}
   speedometerText: {fileID: 1922574755}
   rpmText: {fileID: 2071690864}
+  allWheels:
+  - {fileID: 1046351566}
+  - {fileID: 2088418131}
+  - {fileID: 888117509}
+  - {fileID: 835683166}
   speed: 10
   horsePower: 20000
   rpm: 0
+  wheelsOnGround: 0
 --- !u!4 &523868926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 489324, guid: aea2a6cdcc9d7944090d528486ebaee1,
